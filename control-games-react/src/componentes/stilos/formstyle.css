@@ -1,0 +1,448 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Salsa&display=swap');
+
+:root{
+    --cor0: #020416;
+    --cor1: #010a26;
+    --cor2: #0d9fff;
+    --cor3: #00484f;
+    --cor4: #1c004f;
+    --cor5: #ffffff;
+
+    --fonte-padrao: 'Poppins';
+    --fonte-destacamento: Tahoma ,sans-serif;
+    --fonte-titulo: 'Salsa';
+    --fonte-titulo2: Arial, Helvetica, sans-serif;
+}
+
+
+/*Forms Login======================================================================================================================================================================*/
+
+/*divisão login---------------------------------------------------------------------------------------------*/
+
+.divisao {
+    text-align: center; /* Centraliza o conteúdo */
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+  
+  .divisao p {
+    font-size: 24px; /* Tamanho da fonte para o texto "Login" */
+    margin-bottom: 10px; /* Espaço entre o texto e a linha */
+    font-family: var(--fonte-padrao);
+    font-size: 20px;
+    color: white;
+  }
+  
+  .divisao .linha {
+    width: 300px; /* Largura da linha (ajuste conforme necessário) */
+    height: 2px; /* Altura da linha */
+    background-color: white; /* Cor da linha, você pode alterar para a cor desejada */
+    margin: 0 auto; /* Centraliza a linha horizontalmente */
+    
+  }
+
+/*Conteiner da secção login---------------------------------------------------------------------------------*/
+#container_login{
+    width: 500px;
+    height: 550px;
+    margin: auto;
+    background-color: var(--cor1);
+    border-radius: 20px;
+}
+
+/*Box email-----------------------------------------------------------------------------------------------------*/
+
+#box_email{
+    display: inline-block;
+    font-family: var(--fonte-padrao);
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    
+}
+
+/*Box nickname-----------------------------------------------------------------------------------------------------*/
+#box_nickname{
+    display: inline-block;
+    font-family: var(--fonte-padrao);
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+
+#box_email p{
+    text-align: left;
+    margin: 0px;
+}
+
+#box_email input{
+    width: 421px;
+    height:40px ;
+    border-radius: 10px;
+}
+
+/*Box Senha-----------------------------------------------------------------------------------------------------*/
+
+#box_senha{
+    display: inline-block;
+    font-family: var(--fonte-padrao);
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    padding-left: 30px;
+}
+
+#box_senha p{
+    text-align: left;
+    margin: 0px;
+}
+
+#box_senha input{
+    width: 421px;
+    height:40px ;
+    border-radius: 10px;
+}
+
+/*Box  Lembrar Senha-----------------------------------------------------------------------------------------------------*/
+
+#box_lembrar{
+    display: inline-block;
+    margin-right: 280px;
+    padding-top: 10px;
+    color: white;
+    font-family: var(--fonte-padrao);
+    padding-left: 30px;
+}
+
+#box_lembrar input{
+    text-align: left;
+    padding-right: 200px;
+    
+}
+
+/*Box  Login----------------------------------------------------------------------------------------------------------*/
+
+#box_login{
+    text-align: center;
+    padding-top: 90px;
+}
+
+#box_login button{
+    display: block;
+    margin: auto;
+    width: 284px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: var(--fonte-padrao);
+    font-size: 16px;
+    font-weight: 600;
+    background-color: var(--cor2);
+
+    margin-bottom: 20px;
+    transition-duration: 0.8s;
+}
+
+#box_login a{
+    display: block;
+    color: white;
+    font-family: var(--fonte-padrao);
+    text-decoration: none;
+    padding-top: 5px;
+}
+
+#box_login a:hover{
+    text-decoration: underline;
+    
+}
+
+#box_login button:hover{
+    transform: scale(1.1);
+}
+
+
+
+/*Forms Cadastro======================================================================================================================================================================*/
+
+.divisao_cadastro {
+    text-align: center; /* Centraliza o conteúdo */
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+  
+  .divisao_cadastro p {
+    font-size: 24px; /* Tamanho da fonte para o texto "Login" */
+    margin-bottom: 10px; /* Espaço entre o texto e a linha */
+    font-family: var(--fonte-padrao);
+    font-size: 20px;
+    color: white;
+  }
+  
+  .divisao_cadastro .linha_cadastro {
+    width: 300px; /* Largura da linha (ajuste conforme necessário) */
+    height: 2px; /* Altura da linha */
+    background-color: white; /* Cor da linha, você pode alterar para a cor desejada */
+    margin: 0 auto; /* Centraliza a linha horizontalmente */
+    
+  }
+
+
+#container_cadastro{
+    width: 500px;
+    height: 650px;
+    margin: auto;
+    background-color: var(--cor1);
+    border-radius: 20px;
+}
+
+#box_nickname{
+    display: inline-block;
+    font-family: var(--fonte-padrao);
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+
+#box_nickname p{
+    text-align: left;
+    margin: 0px;
+}
+
+#box_nickname input{
+    width: 421px;
+    height:40px ;
+    border-radius: 10px;
+}
+
+#box_senha{
+    display: inline-block;
+    font-family: var(--fonte-padrao);
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+
+#box_senha p{
+    text-align: left;
+    margin: 0px;
+}
+
+#box_senha input{
+    width: 421px;
+    height:40px ;
+    border-radius: 10px;
+}
+
+#box_repetir_senha{
+    display: inline-block;
+    font-family: var(--fonte-padrao);
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+
+#box_repetir_senha p{
+    text-align: left;
+    margin: 0px;
+}
+
+#box_repetir_senha input{
+    width: 421px;
+    height:40px ;
+    border-radius: 10px;
+}
+
+#box_cadastro{
+    text-align: center;
+    padding-top: 30px;
+}
+
+#box_cadastro button{
+    display: block;
+    margin: auto;
+    width: 284px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: var(--fonte-padrao);
+    font-size: 16px;
+    font-weight: 600;
+    background-color: var(--cor2);
+
+    margin-bottom: 20px;
+    transition-duration: 0.8s;
+}
+
+
+#box_cadastro button:hover{
+    transform: scale(1.1);
+}
+
+#box_voltar_login{
+    text-align: center;
+    padding-top: 20px;
+}
+
+#box_voltar_login a{
+    text-decoration: none;
+    font-family: var(--fonte-padrao);
+    color: white;
+    font-size: 16px;
+    transition-duration: 0.8s;
+}
+
+#box_voltar_login a:hover{
+    background-color: var(--cor2);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+/*Formulario de dados da conta=====================================================================================================================================================*/
+
+/*Conteiner da secção forms---------------------------------------------------------------------------------*/
+#container_configuracao{
+    width: 500px;
+    height: 550px;
+    margin: auto;
+    background-color: var(--cor1);
+    border-radius: 20px;
+}
+
+#botoes{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+#botoes button{
+    align-items: center;
+    border-radius: 15px;
+    border: 2px solid black;
+    color: white;
+    font-family: var(--fonte-padrao);
+    text-decoration: none;
+    transition: 0.8s;
+}
+
+#botao_alterar_conta{
+    background-image: linear-gradient(to right ,#FF7A00 4.24% , #FFB800 79.05% , #FF7A00 100%); 
+    margin-right: 20px;
+    width: 190px;
+    height: 60px;
+}
+
+#botao_exluir_conta{
+    background-image: linear-gradient(to right ,#E61717 4.24% , #B33636 79.05% , #804040 100%); 
+    margin-left: 20px;
+    width: 190px;
+    height: 60px;
+}
+
+
+/*Media query======================================================================================================================================================================*/
+
+
+@media(max-width: 900px){
+    #container_login{
+        width: 350px;
+        height: 650px;
+        margin: auto;
+        background-color: var(--cor1);
+        border-radius: 20px;
+    }
+
+    #box_email{
+        padding-left: 10px;
+    }
+    
+    #box_email input{
+        width: 320px;
+        height:40px ;
+        
+    }
+
+    #box_senha{
+        padding-left: 10px;
+    }
+
+    #box_senha input{
+        width: 320px;
+        height:40px ;
+    }
+
+    #box_lembrar{
+        padding-left: 10px;
+    }
+
+    #box_lembrar{
+        display: inline-block;
+        margin-right: 180px;
+        padding-top: 10px;
+        color: white;
+        font-family: var(--fonte-padrao);
+    
+    }
+    
+    #box_lembrar input{
+        text-align: left;
+        padding-right: 200px;
+        
+    }
+
+    /*Container_cadastro código adicional ------------------------------------------------*/
+
+    #container_cadastro{
+        width: 350px;
+        height: 650px;
+        margin: auto;
+        background-color: var(--cor1);
+        border-radius: 20px;
+    }
+
+    #box_nickname,#box_repetir_senha{
+        padding-left: 10px;
+    }
+    
+    #box_nickname input{
+        width: 320px;
+        height:40px ;
+        
+    }
+
+    #box_repetir_senha input{
+        width: 320px;
+        height:40px ;
+        
+    }
+
+    /*Container_configuracao código adicional ------------------------------------------------*/
+
+    #container_configuracao{
+        width: 350px;
+        height: 550px;
+        margin: auto;
+        background-color: var(--cor1);
+        border-radius: 20px;
+    }
+
+    #botao_alterar_conta{
+        width: 130px;
+    }
+
+    #botao_exluir_conta{
+        width: 130px;
+    }
+
+    
+}

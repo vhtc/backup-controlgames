@@ -1,0 +1,122 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Salsa&display=swap');
+
+:root{
+    --cor0: #020416;
+    --cor1: #010A26;
+    --cor2: #0d9fff;
+    --cor3: #00484f;
+    --cor4: #1c004f;
+    --cor5: #ffffff;
+
+    --fonte-padrao: 'Poppins';
+    --fonte-destacamento: Tahoma ,sans-serif;
+    --fonte-titulo: 'Salsa';
+    --fonte-titulo2: Arial, Helvetica, sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.vhtc{
+     /* background-color: var(--cor1); */
+     background-image: linear-gradient(to bottom ,#023E62 48.62%, #010A26 96.01%  , #024872 100% );
+
+}
+/*Main (corpo)-------------------------------------------------------------------------------------------------------------------------------------*/
+
+#main{
+    max-width: 1000px;
+    height: 100vh;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    
+}
+/*divisão das Secções----------------------------------------------------------------------------------------------------------------------------*/
+
+.divisao{
+    display: flex;
+    align-items: center;
+    margin: 35px 0;
+
+    font-family: var(--fonte-titulo2);
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.divisao p{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.linha{
+    flex: 1;
+    border-top: 1px solid white;
+    height: 0;
+    margin: 0 5px; 
+    
+}
+
+/*secção lista plataformas-------------------------------------------------------------------------------------------------------------------------------------*/
+
+#Plataformas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Mostrar_plataformas {
+    margin-bottom: 10px; /* Adicione espaço entre os blocos */
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 250px;
+}
+
+.link_img_plataforma {
+    margin-right: 30px; /* Adicione espaço entre a imagem e a descrição */
+}
+
+.link_plataforma {
+    display: block; /* Faz com que o link ocupe toda a largura disponível */
+}
+
+.link_img_plataforma img{
+    width: 80px;
+    transition-duration: 0.8s;
+}
+
+.Mostrar_plataformas a{
+    color: white;
+    text-decoration: none;
+    font-family: var(--fonte-padrao);
+}
+
+
+.link_img_plataforma img:hover{
+    transform: scale(1.2);
+}
+
+/*Botões----------------------------------------------------------------------------------------------------------------------*/
+
+#botoes{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 90px;
+}
+
+
+
+/* adicionado vhtc */
+.urlCapaPlataforma{
+    width: 200px;
+    height: 150px;
+}

@@ -1,0 +1,57 @@
+:root {
+    --cor0: #020416;
+    --cor1: #010A26;
+    --cor2: #0d9fff;
+    --cor3: #00484f;
+    --cor4: #1c004f;
+    --cor5: #ffffff;
+}
+
+body{
+    background-color: var(--cor1);
+}
+
+/*Main (corpo)-------------------------------------------------------------------------------------------------------------------------------------*/
+
+#main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+/*divisão das Secções----------------------------------------------------------------------------------------------------------------------------*/
+
+.divisao{
+    display: flex;
+    align-items: center;
+    margin: 35px 0;
+
+    font-family: var(--fonte-titulo2);
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.divisao p{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.linha{
+    flex: 1;
+    border-top: 1px solid white;
+    height: 0;
+    margin: 0 5px;
+}
+
+#botao_cadastrar_jogo{
+    display: flex;
+}
+
+#footer01 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
